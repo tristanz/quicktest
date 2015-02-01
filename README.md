@@ -1,6 +1,6 @@
 # QuickTest
 
-QuickTest allows fast end-to-end of REST APIs by recording expected output.
+QuickTest allows fast end-to-end of REST APIs.
 
 ```
 npm install quicktest
@@ -9,10 +9,5 @@ npm install quicktest
 ## Usage
 
 ```
-quicktest tests.yml expected.yml
-```
-
-```yaml
-- 'Validate User'
-
+quicktest tests/user.tests
 ```

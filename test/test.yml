@@ -1,0 +1,7 @@
+- name: 'static route'
+  url: '/static'
+  response:
+    status: 200
+    body:
+      id: 1
+      name: test

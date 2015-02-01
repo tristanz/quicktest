@@ -1,0 +1,31 @@
+{
+  "name": "quicktest",
+  "version": "0.5.0",
+  "description": "Fast end-to-end REST API testing with recording.",
+  "repository": "tristanz/quicktest",
+  "homepage": "https://github.com/tristanz/quicktest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jshint test/server.js index.js;"
+  },
+  "author": "Tristan Zajonc",
+  "license": "MIT",
+  "keywords": [
+    "rest",
+    "testing"
+  ],
+  "dependencies": {
+    "chalk": "^0.5.1",
+    "commander": "^2.6.0",
+    "js-yaml": "^3.2.5",
+    "json-diff": "^0.3.1",
+    "lodash": "^3.0.1",
+    "request": "^2.51.0"
+  },
+  "devDependencies": {
+    "basic-auth": "^1.0.0",
+    "body-parser": "^1.11.0",
+    "express": "^4.11.1",
+    "morgan": "^1.5.1"
+  }
+}
